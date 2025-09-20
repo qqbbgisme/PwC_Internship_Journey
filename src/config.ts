@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "My PwC Internship Journey",
   title: "By Irene Cheung",
   description: "Portfolio website of Irene Cheung",
-  accentColor: "#dc6900",
+  accentColor: "#D04A02",
   social: {
     email: "irenecheung.hortung@gmail.com",
     linkedin: "https://www.linkedin.com/in/irene-cheung-cct/",
