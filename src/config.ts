@@ -1,8 +1,8 @@
 export const siteConfig = {
-  name: "Cheung Cheuk Ting, Irene",
-  title: "HKUST Student",
+  name: "My PwC Internship Journey",
+  title: "By Irene Cheung",
   description: "Portfolio website of Irene Cheung",
-  accentColor: "#1d4ed8",
+  accentColor: "#dc6900",
   social: {
     email: "irenecheung.hortung@gmail.com",
     linkedin: "https://www.linkedin.com/in/irene-cheung-cct/",
@@ -10,13 +10,13 @@ export const siteConfig = {
     github: "https://github.com/qqbbgisme",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    " This is Irene and I participated in the Co-op Program by UST and PwC. I started my internship from February 2025 and end by mid June. During my internship journey, I have learned a lot and I am grateful for the opportunity to work with such a great team." ,
+  skills: ["SAP SuccessFactors", ""],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "HKUST Technical Proposal",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+        "I participated in the HKUST Technical Proposal, and my team won the first place. We proposed a solution to help the HKUST to improve their student management system.",
       link: "https://aidevroundup.com/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
     },
