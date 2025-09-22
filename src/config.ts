@@ -23,7 +23,7 @@ export const siteConfig = {
     {
       name: "EdUHK Technical Proposal",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
+        "Given prior experience in higher education, I was given the opportunity in building a technical proposal for the EdUHK",
       link: "https://fullstackextensions.com/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
     },
