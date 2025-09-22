@@ -1,37 +1,19 @@
 ---
-import "../../styles/global.css";
-import Header from "../../components/Header.astro";
-import Footer from "../../components/Footer.astro";
-import { siteConfig } from "../../config";
+import ProjectPage from "../../components/Projectpage.astro";
+import { Fragment } from "astro/jsx-runtime";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <meta name="description" content={siteConfig.description} />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" />
-    <title>Project - HKUST Technical Proposal</title>
-  </head>
-  
-  <body>
-    <Header />
-    <main class="mx-auto max-w-3xl px-4 py-10 space-y-6">
-      <h1 class="text-2xl font-semibold">Project Background</h1>
-      <p class="text-sm leading-6 text-zinc-300">
-        The current Finance and HR system custom built on PeopleSoft are no longer being supported. Therefore, the client was struggling to upgrade the PeopleSoft system to the latest version or completely change to an ERP system
-      </p>
+<ProjectPage title="Project - HKUST Technical Proposal">
 
-      <a
-        href={`${import.meta.env.BASE_URL}#education`}
-        class="inline-block mt-6 text-blue-400 hover:text-blue-300 underline"
-      >
-        ← Back to Portfolio
-      </a>
-    </main>
-    <Footer />
-  </body>
-</html>
+  <h1 class="text-2xl font-semibold">Project Background</h1>
+  <p class="text-sm leading-6 text-zinc-300">
+    The current Finance and HR system custom built on PeopleSoft are no longer being supported. Therefore, the client was struggling to upgrade the PeopleSoft system to the latest version or completely change to an ERP system.
+  </p>
+
+  <a
+    href={`${import.meta.env.BASE_URL}#education`}
+    class="inline-block mt-6 text-blue-400 hover:text-blue-300 underline"
+  >
+    ← Back to Portfolio
+  </a>
+</ProjectPage>
