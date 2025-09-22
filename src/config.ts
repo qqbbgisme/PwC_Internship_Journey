@@ -17,22 +17,22 @@ export const siteConfig = {
       name: "HKUST Technical Proposal",
       description:
         "I participated in the HKUST Technical Proposal, and my team won the first place. We proposed a solution to help the HKUST to improve their student management system.",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/hkust",
+      skills: ["Deck Making"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "EdUHK Technical Proposal",
       description:
         "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
       link: "https://fullstackextensions.com/?ref=devportfolio",
       skills: ["React", "Node.js", "AWS"],
     },
     {
-      name: "ExtensionKit",
+      name: "BBPOS SAP SuccessFactors",
       description:
         "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
       link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["SAP SuccessFactors Configuration"],
     },
   ],
   experience: [
@@ -69,23 +69,19 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "The Hong Kong University of Science and Technology",
+      degree: "Bachelor of Business Administration in Information Systems and Operations Management",
+      dateRange: "2021 - 2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Focusing on Business Analysis and Data Analysis",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Michigan State University",
+      degree: "Study Abroad Program",
+      dateRange: "2024 Spring",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Major in Supply Chain Management and minor in Information Technology",
       ],
     },
   ],
