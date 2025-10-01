@@ -1,0 +1,44 @@
+---
+import ProjectPage from "../../components/Projectpage.astro";
+import { siteConfig } from "../../config";
+---
+<section id="projects" class="p-8 sm:p-12 md:p-16 lg:p-24">
+  <div>
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+      <div class="lg:col-span-4">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+            EDUHK Technical Proposal
+        </h2>
+        <div
+          class="w-[75px] h-[5px] mt-2 rounded-full"
+          style={`background-color: ${siteConfig.accentColor}`}
+        />
+      </div>
+</div>
+</div>
+</section>
+
+
+<ProjectPage title="Project - HKUST Technical Proposal">
+
+  <h1 class="text-2xl font-semibold">Project Background</h1>
+  <p class="text-sm leading-6 text-gray-600">
+    In the latter internship phase, I led contributions to a new tender for another university aiming to upgrade its HR system to an ERP via SAP SuccessFactors, drawing on my prior higher education expertise. I reviewed the tender document and drafted a comprehensive kick-start package, outlining deadlines, submission processes, responsible parties, and technical proposal requirements. Leveraging my niche knowledge, I guided a newly onboarded senior associate through proposal development, liaised with SAP's relationship manager to validate feasibility for over 200 client requests, and prepared supporting documents like billing statements, contracts, and legal confirmations. This role marked a shift to more administrative and leadership-oriented tasks, bridging bidding strategy with practical execution.
+  </p>
+
+  <h2 class="text-2xl font-semibold">Major Challenge</h2>
+  <p class="text-sm leading-6 text-gray-600">
+    Stepping into a mentorship role for a more senior colleague felt daunting, especially when explaining complex tender nuances like proposal structures and client request validations, where my relative inexperience in administration (e.g., legal terms in contracts) required quick upskilling. Confirming SAP's capacity for 200+ requests involved navigating inter-firm coordination under ambiguity, as responses weren't always immediate. Juggling this alongside ongoing implementation support created task overload, demanding sharp prioritization to meet tender deadlines without compromising quality.
+  </p>
+
+  <h2 class="text-2xl font-semibold">Key Takeaways</h2>
+    <p class="text-sm leading-6 text-gray-600">
+    Expertise can transcend seniority in consulting; guiding the senior associate empowered me to recognize how specialized knowledge accelerates team progress. This project exposed the administrative backbone of tenders— from billing to legal docs—broadening my view of the full consulting lifecycle beyond technical proposals. Liaising with external partners like SAP honed my negotiation and feasibility-assessment skills, while drafting the kick-start package taught structured planning for multi-stakeholder projects. It solidified my ability to multitask diverse responsibilities, enhancing resilience and a holistic understanding of client value delivery.
+    </p>
+  <a
+    href={`${import.meta.env.BASE_URL}#education`}
+    class="inline-block mt-6 text-blue-400 hover:text-blue-300 underline"
+  >
+    ← Back to Portfolio
+  </a>
+</ProjectPage>

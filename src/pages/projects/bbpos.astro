@@ -1,0 +1,44 @@
+---
+import ProjectPage from "../../components/Projectpage.astro";
+import { siteConfig } from "../../config";
+---
+<section id="projects" class="p-8 sm:p-12 md:p-16 lg:p-24">
+  <div>
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+      <div class="lg:col-span-4">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+            BBPOS SAP SuccessFactors Implementation 
+        </h2>
+        <div
+          class="w-[75px] h-[5px] mt-2 rounded-full"
+          style={`background-color: ${siteConfig.accentColor}`}
+        />
+      </div>
+</div>
+</div>
+</section>
+
+
+<ProjectPage title="Project - HKUST Technical Proposal">
+
+  <h1 class="text-2xl font-semibold">Project Background</h1>
+  <p class="text-sm leading-6 text-gray-600">
+    During the second half of my internship, I supported an ongoing SAP SuccessFactors implementation for a multinational client operating across Hong Kong, China, Malaysia, Thailand, and Taiwan, with unique configuration needs for the Taiwan branch. Working remotely alongside another intern under two senior associates (who were on-site), I prepared exhaustive meeting decks and user manuals, detailing regions in English and Chinese, and specifying system fields for client confirmation. I handled manual configuration of over 2,000 data entries in the staff competencies section, conducted initial User Acceptance Testing (UAT) to identify bugs, and created step-by-step UAT manuals with screenshots. When errors surfaced, I joined the team on-site for the first time to guide offshore staff through testing, prioritize client requests, and assist in communicating trade-offs for timely go-live. This exposed me to the full post-bid execution, from configuration to client support.
+  </p>
+
+  <h2 class="text-2xl font-semibold">Major Challenge</h2>
+  <p class="text-sm leading-6 text-gray-600">
+    A critical error in system configuration—overlooking typos, missing data, and formatting issues in 2,000+ entries—led to incomplete displays, eroding client trust and requiring urgent on-site corrections within a 10-hour window that we couldn't fully meet. This mistake, though ultimately attributed to seniors, left me feeling deeply accountable and highlighted the unforgiving nature of precision in technical work. Balancing exhaustive detail in deliverables (e.g., bilingual region listings and custom formats) under tight timelines was demanding, especially while learning SAP concepts like UAT and production environments on the fly. On-site, distinguishing critical changes from enhancements amid client pressures tested my ability to manage expectations without derailing project timelines.
+  </p>
+
+  <h2 class="text-2xl font-semibold">Key Takeaways</h2>
+    <p class="text-sm leading-6 text-gray-600">
+        Precision and double-checking are non-negotiable in implementation phases; this experience reinforced perseverance in tedious tasks like data entry and UAT, directly impacting team efficiency and client confidence. Observing on-site dynamics taught me effective client communication—explaining systems clearly, guiding testing, and negotiating trade-offs to balance expectations with deadlines. It also illuminated the migration process between environments, deepening my technical grasp of SAP SuccessFactors. Ultimately, recovering from the setback built resilience, showing how setbacks in client-facing roles can foster growth in prioritization, attention to detail, and adaptive problem-solving.
+    </p>
+  <a
+    href={`${import.meta.env.BASE_URL}#education`}
+    class="inline-block mt-6 text-blue-400 hover:text-blue-300 underline"
+  >
+    ← Back to Portfolio
+  </a>
+</ProjectPage>
