@@ -41,6 +41,7 @@ export const siteConfig = {
     {
       company: "SAP Team",
       title: "The most caring and supportive team!!! ",
+      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/TeamPeers/team",
       bullets: [
        "",
       ],
@@ -48,6 +49,7 @@ export const siteConfig = {
     {
       company: "Batchmates^^",
       title: "The most hustling and alcholic batchmates!!!",
+      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/TeamPeers/peers",
       bullets: [
         "",
       ],
