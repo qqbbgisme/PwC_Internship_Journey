@@ -26,14 +26,14 @@ export const siteConfig = {
       name: "EdUHK Technical Proposal",
       description:
         "Given prior experience in higher education, I was given the opportunity in building a technical proposal for the EdUHK",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
+      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/eduhk",
       skills: ["Tender Preparation", "Vendor Coordination" ],
     },
     {
       name: "BBPOS SAP SuccessFactors",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
+        " ",
+      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/bbpos",
       skills: ["SAP SuccessFactors Configuration", "On Site Support", "UAT Testing", "User Manual Creation"],
     },
   ],
@@ -42,17 +42,14 @@ export const siteConfig = {
       company: "SAP Team",
       title: "The most caring and supportive team!!! ",
       bullets: [
-       "Designed and implemented backend and frontend systems, integrating API gateway, RESTful APIs, vector database management, and optimized data preprocessing to ensure scalable, maintainable, and high-performance functionality.",
-       "Delivered an end-to-end AI chatbot project, managing development, testing, and deployment phases while adhering to high, standards of code quality and maintainability across the project lifecycle.",
+       "",
       ],
     },
     {
       company: "Batchmates^^",
       title: "The most hustling and alcholic batchmates!!!",
       bullets: [
-        "Supported implementation of a cloud-based Human Resources Information System (SAP SuccessFactors), focusing on system configuration, data migration, and optimization of HR workflows through business process reengineering and harmonization.",
-        "Collaborated cross-functionally with stakeholders to track deliverables, prepare progress reports, and coordinate meetings, ensuring seamless integration and alignment with project requirements.",
-        "Conducted research and analysis to identify opportunities for process improvements, facilitating data-driven decisions in HR system design and maintenance. Implemented CI/CD pipeline reducing deployment time by 60% Collaborated with product team to define technical requirements"
+        "",
       ],
     },
   ],
