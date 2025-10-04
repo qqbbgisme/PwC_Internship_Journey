@@ -41,7 +41,7 @@ export const siteConfig = {
     {
       company: "SAP Team",
       title: "The most caring and supportive team!!! ",
-      link: "/TeamPeers/team",
+      link: "/PwC_Internship_Journey/teampeers/team",
       bullets: [
        "",
       ],
@@ -49,7 +49,7 @@ export const siteConfig = {
     {
       company: "Batchmates^^",
       title: "The most hustling and alcholic batchmates!!!",
-      link: "/TeamPeers/peers",
+      link: "/PwC_Internship_Journey/teampeers/peers",
       bullets: [
         "",
       ],
