@@ -13,7 +13,7 @@ export const siteConfig = {
   },
   aboutMe:
     " This is Irene and I participated in the Co-op Program by UST and PwC. I started my internship from February 2025 and end by mid June. During my internship journey, I have learned a lot and I am grateful for the opportunity to work with such a great team." ,
-  skills: ["SAP SuccessFactors", ""],
+  skills: ["SAP SuccessFactors", "Technical Proposal Drafting", "UAT", "Project Tender Preparation"],
   projects: [
     {
       name: "HKUST Technical Proposal",
@@ -41,7 +41,7 @@ export const siteConfig = {
     {
       company: "SAP Team",
       title: "The most caring and supportive team!!! ",
-      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/TeamPeers/team",
+      link: "/TeamPeers/team",
       bullets: [
        "",
       ],
@@ -49,7 +49,7 @@ export const siteConfig = {
     {
       company: "Batchmates^^",
       title: "The most hustling and alcholic batchmates!!!",
-      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/TeamPeers/peers",
+      link: "/TeamPeers/peers",
       bullets: [
         "",
       ],
