@@ -32,19 +32,19 @@ export const siteConfig = {
       description:
         " ",
       link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/bbpos",
-      skills: ["SAP SuccessFactors Configuration", "On Site Support", "UAT Testing", "User Manual Creation"],
+      skills: ["SAP SuccessFactors Configuration", "On Site Support", "UAT Testing", "User Manual Creation"]
     },
   ],
     experience: [
     {
       company: "SAP Team",
       title: "The most caring and supportive team!!! ",
-      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/team",
+      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/team"
     },
     {
       company: "Batchmates^^",
       title: "The most hustling and alcholic batchmates!!!",
-      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/peers",
+      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/peers"
     },
   ],
   education: [
