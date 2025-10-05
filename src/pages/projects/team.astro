@@ -1,7 +1,7 @@
 ---
 import ProjectPage from "../../components/Projectpage.astro";
 import { siteConfig } from "../../config";
-import TeamPhoto from "../../../public/image/teamphoto.png";
+const TeamPhoto = "/image/Teamphoto.jpg";
 ---
 <section id="projects" class="p-8 sm:p-12 md:p-16 lg:p-24">
   <div>
@@ -10,7 +10,7 @@ import TeamPhoto from "../../../public/image/teamphoto.png";
         <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
             My Team
         </h2>
-        <img src={TeamPhoto.src} alt="Team Photo" class="h-12 sm:h-16 md:h-20 xl:h-28 object-contain" />
+        <img src={TeamPhoto} alt="Team Photo" class="h-12 sm:h-16 md:h-20 xl:h-28 object-contain" />
         <div
           class="w-[75px] h-[5px] mt-2 rounded-full"
           style={`background-color: ${siteConfig.accentColor}`}
