@@ -1,5 +1,3 @@
-
-
 export const siteConfig = {
   name: "My PwC Internship Journey",
   title: "By Irene Cheung",
@@ -42,17 +40,11 @@ export const siteConfig = {
       company: "SAP Team",
       title: "The most caring and supportive team!!! ",
       link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/team",
-      bullets: [
-       "",
-      ],
     },
     {
       company: "Batchmates^^",
       title: "The most hustling and alcholic batchmates!!!",
       link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/peers",
-      bullets: [
-        "",
-      ],
     },
   ],
   education: [
