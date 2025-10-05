@@ -1,7 +1,8 @@
 ---
 import ProjectPage from "../../components/Projectpage.astro";
 import { siteConfig } from "../../config";
-import BatchmatePhoto01 from "../../../public/image/BatchPhoto01.jpg";
+import { Image } from "astro:assets";
+import BatchmatePhoto01 from "../../assets/images/BatchPhoto01.jpg";
 ---
 <section id="projects" class="p-8 sm:p-12 md:p-16 lg:p-24">
   <div>
@@ -11,7 +12,7 @@ import BatchmatePhoto01 from "../../../public/image/BatchPhoto01.jpg";
           <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
               My Batchmates
           </h2>
-          <img src={BatchmatePhoto01.src} alt="HKUST logo" class="h-12 sm:h-16 md:h-20 xl:h-28 object-contain" />
+          <Image src={BatchmatePhoto01} alt="BatchPhoto01" class="h-8 sm:h-12 md:h-16 lg:h-20 xl:h-24 object-contain" />
         </div>
         <div
           class="w-[75px] h-[5px] mt-2 rounded-full"
