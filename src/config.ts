@@ -30,7 +30,7 @@ export const siteConfig = {
     {
       name: "BBPOS SAP SuccessFactors",
       description:
-        " ",
+        " The BBPOS project was an SAP SuccessFactors implementation where I focused on system configuration, data entry for staff competencies, user manuals, and on-site User Acceptance Testing to ensure accurate HR processes and timely go-live.",
       link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/bbpos",
       skills: ["SAP SuccessFactors Configuration", "On Site Support", "UAT Testing", "User Manual Creation"]
     },
@@ -39,12 +39,24 @@ export const siteConfig = {
     {
       company: "SAP Team",
       title: "The most caring and supportive team!!! ",
-      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/team"
+      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/team",
+      bullets: [
+        "Collaborated with Partner Mike Li, who offered approachable guidance on PowerPoint refinements and presentations during bidding, building my confidence in partner-level interactions.",
+        "Received high-ownership training from Line Manager Yuko in resource sourcing and deck creation, with thoughtful support like post-late-night leave and travel tips for balance.",
+        "Learned calm leadership and career advice from Manager Tak, including client-handling observations, no-overtime policies, team rewards, and a \"speak up\" culture against burnout.",
+        "Acquired technical skills from Senior Associates Yanes and Ivy through detailed reviews, SAP training, UAT guidance, and encouraging error resolutions without criticism."
+      ]
     },
     {
       company: "Batchmates^^",
       title: "The most hustling and alcholic batchmates!!!",
-      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/peers"
+      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/peers",
+      bullets: [
+        "Bonded with Tom as my key peer, sharing workloads, ramen adventures in Central, and deep discussions on work, life, and careers to combat isolation.", 
+        "Formed a \"small squad\" with Vincci and Tom for motivation and hangouts, valuing her inclusive vibe that enhanced our group.",
+        "Enjoyed Henry's fun energy and emotional goodbyes, emphasizing genuine connections within the batch.",
+        "Connected with Oscar and other easy-going peers via Friday gatherings, sharing aspirations and support in a communal atmosphere."
+      ]
     },
   ],
   education: [
