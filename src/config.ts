@@ -14,30 +14,30 @@ export const siteConfig = {
   skills: ["SAP SuccessFactors", "Technical Proposal Drafting", "UAT", "Project Tender Preparation"],
   projects: [
     {
-      name: "HKUST Technical Proposal",
+      name: "A Hong Kong Leading University's Technical Proposal",
       description:
-        "I participated in the HKUST Technical Proposal, and my team won the first place. We proposed a solution to help the HKUST to improve their student management system.",
-      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/hkust",
+        "This is my first time to participate in the drafting a Technical Proposal, and my team won the first place. We proposed a solution to help the university to improve their HR and Finance system.",
+      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/uni01",
       skills: ["Slide Design Mastery", "Global HR Insights", "Legal Terminology", "Research Skills"],
     },
     {
-      name: "EdUHK Technical Proposal",
+      name: "A Hong Kong Public University's Technical Proposal",
       description:
-        "Given prior experience in higher education, I was given the opportunity in building a technical proposal for the EdUHK",
-      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/eduhk",
+        "Given prior experience in higher education, I was given the opportunity in building a technical proposal for another university",
+      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/uni02",
       skills: ["Tender Preparation", "Vendor Coordination" ],
     },
     {
-      name: "BBPOS SAP SuccessFactors",
+      name: "A Payment Solutions Company's SAP SuccessFactors Implementation",
       description:
-        " The BBPOS project was an SAP SuccessFactors implementation where I focused on system configuration, data entry for staff competencies, user manuals, and on-site User Acceptance Testing to ensure accurate HR processes and timely go-live.",
-      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/bbpos",
+        " The project was an SAP SuccessFactors implementation where I focused on system configuration, data entry for staff competencies, user manuals, and on-site User Acceptance Testing to ensure accurate HR processes and timely go-live.",
+      link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/payment",
       skills: ["SAP SuccessFactors Configuration", "On Site Support", "UAT Testing", "User Manual Creation"]
     },
   ],
     experience: [
     {
-      company: "SAP Team",
+      company: "The PwC SAP Team",
       title: "The most caring and supportive team!!! ",
       link: "https://qqbbgisme.github.io/PwC_Internship_Journey/projects/team",
       bullets: [
